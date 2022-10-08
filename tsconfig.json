@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "dom"],
+    "skipLibCheck": true,
+    "types": [
+      "unplugin-icons/types/vue",
+      "pinia-plugin-persist",
+      "pinia",
+      "vitest/globals",
+      "node",
+    ],
+    "typeRoots": ["./node_modules/@types", "./src/types",]
+  },
+  "include": ["src/**/*", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/*.vue", "src/main.js", "views/**/*.vue", "views/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+  
+}
