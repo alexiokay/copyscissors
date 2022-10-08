@@ -104,7 +104,7 @@ const createSelectionDiv = (x: number, y: number, width:number, height:number) =
 
     }
   } 
-}
+} // test comment
 
 // create Screenshoot of selection, send it to backend, convert to text and save in clipboard
 const getDisplayMedia =  (width: any, height: any, x:any, y:any) => {
